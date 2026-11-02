@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.log
+*.part
+*.tmp
+app/backup-*/
+app/_deploy*/
+app/pairing*.json
+app/frontend-src/node_modules/
+settings.json
+*.db

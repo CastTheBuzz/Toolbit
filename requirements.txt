@@ -1,0 +1,22 @@
+# Python 3.12. The Windows build ships its own Python with these installed.
+fastapi
+uvicorn
+pydantic
+python-multipart
+requests
+pillow
+pillow-heif
+pypdf
+pypdfium2
+reportlab
+python-docx
+pandas
+openpyxl
+pyarrow
+tabulate
+numpy
+beautifulsoup4
+mutagen
+imageio-ffmpeg
+faster-whisper
+anthropic

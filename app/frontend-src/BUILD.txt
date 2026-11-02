@@ -1,0 +1,9 @@
+Data Assistant frontend source (v3.3.0)
+app.js    = readable app (React already bundled in; app code starts around "async function R(").
+            v2.6 imports "qrcode-generator", so the build now bundles it.
+orig.css + extra.css = styles.
+Setup once:  npm i esbuild qrcode-generator
+Build:  npx esbuild app.js --bundle --minify --format=esm --target=es2020 --outfile=index-vXXX.js
+        type orig.css extra.css > index-vXXX.css   (Windows)  /  cat orig.css extra.css > index-vXXX.css
+Optional: gzip -9k both files (server sends .gz automatically when present).
+Copy into ..\web\assets\ and point ..\web\index.html at the new names.
